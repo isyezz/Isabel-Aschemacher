@@ -33,8 +33,15 @@ body.hauptseite{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-	
 }
+
+
+  @media(min-width: 10em){
+      .body{
+          background-color: white;
+  }
+}
+
  [href] {
     color:rgb(255, 0, 149);
     text-align: center;
@@ -117,7 +124,7 @@ h1.ueberschrift{
 
 
   h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 3em;
   }
 
