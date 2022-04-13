@@ -433,3 +433,17 @@ div{
  size: 0,5em;
 }
 
+
+:root {
+    --my-border-color: black;
+  }
+  
+  .fader {
+    width: 5.5em;
+    height: 3.5em;
+    border-style: solid;
+    border-color: var(--my-border-color);
+    margin-left: 90%;
+    text-align: center;
+   
+  }
