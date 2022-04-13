@@ -1,0 +1,322 @@
+h1.ueberschrift{
+    color: rgb(255, 0, 149);
+    text-align: center;
+  
+}
+
+h2 { 
+    color:rgb(255, 0, 170);
+    text-align: center;
+}
+
+.spiellink
+{
+    background-color: rgba(255, 255, 255, 0.193);
+    padding: auto;
+    transition: background-color 1s, padding 1s ease;
+
+}
+
+.spiellink:hover{
+    padding: 0.6em;
+    background-color: #ff4ef92c;
+}
+
+body.hauptseite{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 230, 234, 0.688);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-minimalist-music-master-background-image_133616.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+ [href] {
+    color:rgb(255, 0, 149);
+    text-align: center;
+}
+
+#quelle:visited { color: #4b2f89; }
+
+
+img {
+    width: 100%;
+    max-width: 18em; 
+    height: auto;
+  }
+
+
+
+.text{
+    text-align: justify;
+}
+
+.text::after{
+
+margin-top: 1.2em;
+content: " Die Quelle findest du hier unten ;)";
+color:#4b2f89;
+}
+
+span[data-descr] {
+    position: relative;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: grab;
+  }
+
+span[data-descr]:hover::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 1.5em;
+    min-width: 12em;
+    border: 0.06em (0,0,0) solid;
+    border-radius: 0.6em;
+    background-color: #ffccf5;
+    padding: 0.72em;
+    color: #000000;
+    font-size: 0.9em;
+    z-index: 1;
+}
+
+
+table, th, td{
+    margin-top: 1.8em;
+    border: thin solid black;
+    border-collapse: separate;
+    padding: 0.3em;
+    background-color: white;
+}
+
+
+body.spielseite{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 230, 252, 0.688);
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 6em;
+
+}
+
+
+
+h1.ueberschrift{
+    text-align: center;
+    }
+
+
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+  }
+
+  footer{
+    border-top: 0.25em solid rgb(255,0,170);
+    padding:1.8em;
+}
+
+#button1 {
+    background-color: #00ff08;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#button1:hover{
+    background-color: #007e04;
+    
+}
+
+#button2{
+    background-color: #0004ff;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button2:hover{
+    background-color: #0003a5;
+}
+
+
+#button3{
+    background-color: #ff00f7;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button3:hover{
+    background-color: #8e0089;
+}
+
+
+#button4{
+    background-color: #ff0000;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button4:hover{
+    background-color: #8d0000;
+}
+
+#button5{
+    background-color: #ccff00;
+    border: none;
+    color: #ccff00;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button5:hover{
+    background-color: #688200;
+}
+#button6{
+    background-color: #00ffff;
+    border: none;
+    color: #00ffff;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button6:hover{
+    background-color: #007b7b;
+}
+
+#button7{
+    background-image: radial-gradient(
+        circle closest-side at center,
+        rgb(255, 0, 247),
+        rgb(92, 0, 86),
+        rgb(0, 0, 0));
+    border: none;
+    color: #ff00f7;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    /*transition: background-color 0.15s;*/
+}
+/*#button7:hover{
+    background-color: #000000;
+}  Für abgabe ausgeklammert, dass ich so alle bedingungen erfülle*/
+#button8{
+    background-image: radial-gradient(
+        circle closest-side at center,
+        rgb(255, 0, 0),
+        rgb(92, 0, 0),
+        rgb(0, 0, 0));
+    
+    border: none;
+    color: #ff0000;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    /*transition: background-color 0.15s;*/
+}
+/*#button8:hover{
+    background-color: #8d0000;
+}*  ---> siehe Button 7*/
+
+#button9 {
+    background-color: #00ff08;
+    border: none;
+    color: #00ff08;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#button9:hover{
+    background-color: #007e04;
+}
+
+#button10{
+    background-color: #0004ff;
+    border: none;
+    color: #0004ff;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button10:hover{
+    background-color: #0003a5;
+}
+
+
+
