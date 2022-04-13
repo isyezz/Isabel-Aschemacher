@@ -20,11 +20,16 @@ h2 {
 .spiellink:hover{
     padding: 0.6em;
     background-color: #ff4ef92c;
+    color: white;
+}
+
+.back:hover{
+    color:black;
 }
 
 body.hauptseite{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 230, 234, 0.688);
+    background-color: rgb(255, 185, 164);
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-top: 0.5em;
@@ -33,6 +38,7 @@ body.hauptseite{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 
@@ -48,7 +54,7 @@ body.hauptseite{
 }
 
 #quelle:visited { color: #4b2f89; }
-
+#quelle:hover{color: white;}
 
 img {
     width: 100%;
@@ -112,6 +118,7 @@ body.spielseite{
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 6em;
+    
 
 }
 
@@ -129,7 +136,7 @@ h1.ueberschrift{
   }
 
   footer{
-    border-top: 0.25em solid rgb(255,0,170);
+    border-top: 0.16em solid #ff000051;
     padding:1.8em;
 }
 
@@ -159,7 +166,7 @@ div{
 #button2{
     background-color: #0004ff;
     border: none;
-    color: rgb(0, 0, 0);
+    color: #0004ff;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -178,7 +185,7 @@ div{
 #button3{
     background-color: #ff00f7;
     border: none;
-    color: rgb(0, 0, 0);
+    color: #ff00f7;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -197,7 +204,7 @@ div{
 #button4{
     background-color: #ff0000;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     width: 9em;
     height: 9em;
     text-align: center;
@@ -327,6 +334,102 @@ div{
 #button10:hover{
     background-color: #0003a5;
 }
+#button11 {
+    background-color: #00ff08;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#button11:hover{
+    background-color: #007e04;
+    
+}
+
+#button12{
+    background-color: #0004ff;
+    border: none;
+    color: #0004ff;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button12:hover{
+    background-color: #0003a5;
+}
 
 
+#button13{
+    background-color: #ff00f7;
+    border: none;
+    color: #ff00f7;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button13:hover{
+    background-color: #8e0089;
+}
+
+
+#button14{
+    background-color: #ff8800;
+    border: none;
+    color: #ff8800;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button14:hover{
+    background-color: #894900;
+}
+
+#button15{
+    background-color: #00ffe1;
+    border: none;
+    color: #00ffe1;
+    width: 9em;
+    height: 9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#button15:hover{
+    background-color: #00786a;
+}
+
+.teilung{
+ color:#ff000051;
+ size: 0,5em;
+}
 
