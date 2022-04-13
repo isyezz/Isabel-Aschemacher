@@ -133,6 +133,9 @@ h1.ueberschrift{
     padding:1.8em;
 }
 
+div{
+    text-align: center;
+}
 #button1 {
     background-color: #00ff08;
     border: none;
@@ -251,7 +254,7 @@ h1.ueberschrift{
         rgb(92, 0, 86),
         rgb(0, 0, 0));
     border: none;
-    color: #ff00f7;
+    color: #ffffff;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -273,7 +276,7 @@ h1.ueberschrift{
         rgb(0, 0, 0));
     
     border: none;
-    color: #ff0000;
+    color: #ffffff;
     width: 9em;
     height: 9em;
     text-align: center;
