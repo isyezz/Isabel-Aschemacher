@@ -143,6 +143,43 @@ h1.ueberschrift{
 div{
     text-align: center;
 }
+
+#Metronom {
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 6em;
+    height: 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+}
+
+#Metronom:hover{
+    background-color: grey;
+}
+
+#stopp{
+    background-color: #000000;
+    color: white;
+    width: 6em;
+    height: 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.24em 0.12em;
+    cursor: pointer;
+    border: none;
+}
+#stopp:hover{
+    background-color: grey;
+}
+
+
 #button1 {
     background-color: #00ff08;
     border: none;
