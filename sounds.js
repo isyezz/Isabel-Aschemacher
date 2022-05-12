@@ -1,6 +1,13 @@
 const test = 0;
 console.log(test);
 
+let volume = 0;
+const fader = document.getElementById("fader");
+
+fader.addEventListener("click", () => {
+    console.log(slider.value);
+    volume = slider.value / 100;
+});
 
 const button1 = document.getElementById("button1");
 button1.addEventListener("click", playAudio1);
@@ -8,6 +15,7 @@ button1.addEventListener("click", playAudio1);
 function playAudio1() {
     const sound1 = new Audio("sounds/bass.mp3");
     sound1.play();
+    sound1.volume = volume;
 }
 
 const button2 = document.getElementById("button2");
@@ -44,4 +52,14 @@ function stoppmetro() {
     metro.loop = false;
     metro.pause();
 }
+
+let slider = document.getElementById("fader");
+
+let output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+output.innerHTML = this.value;
+};
+
 

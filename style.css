@@ -292,11 +292,7 @@ div{
 }
 
 #button7{
-    background-image: radial-gradient(
-        circle closest-side at center,
-        rgb(255, 0, 247),
-        rgb(92, 0, 86),
-        rgb(0, 0, 0));
+    background-color: #007e04;
     border: none;
     color: #ffffff;
     width: 9em;
@@ -307,11 +303,11 @@ div{
     font-size: 1.2em;
     margin: 0.24em 0.12em;
     cursor: pointer;
-    /*transition: background-color 0.15s;*/
+    transition: background-color 0.15s;
 }
-/*#button7:hover{
-    background-color: #000000;
-}  Für abgabe ausgeklammert, dass ich so alle bedingungen erfülle*/
+#button7:hover{
+    background-color: #004d03;
+}  
 #button8{
     background-image: radial-gradient(
         circle closest-side at center,
@@ -475,12 +471,4 @@ div{
     --my-border-color: black;
   }
   
-  .fader {
-    width: 5.5em;
-    height: 3.5em;
-    border-style: solid;
-    border-color: var(--my-border-color);
-    margin-left: 90%;
-    text-align: center;
-   
-  }
+  
