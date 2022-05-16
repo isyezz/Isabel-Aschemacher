@@ -144,6 +144,7 @@ div{
     text-align: center;
 }
 
+
 #Metronom {
     background-color: #000000;
     border: none;
@@ -185,7 +186,6 @@ div{
 #button1 {
     background-color: #00ff08;
     border: none;
-    color: rgb(0, 0, 0);
     color: #00ff08;
     width: 9em;
     height: 9em;
@@ -469,4 +469,4 @@ div{
     --my-border-color: black;
   }
   
-  
+

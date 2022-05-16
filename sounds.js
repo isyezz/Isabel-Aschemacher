@@ -1,6 +1,3 @@
-const test = 0;
-console.log(test);
-
 let volume = 0;
 const fader = document.getElementById("fader");
 
@@ -22,27 +19,47 @@ const button2 = document.getElementById("button2");
 button2.addEventListener("click", playAudio2);
 
 function playAudio2() {
-    const sound2 = new Audio("sounds/drum.wav");
+    const sound2 = new Audio("sounds/drum.mp3");
     sound2.play();
+    sound2.volume = volume;
 }
 
 const button3 = document.getElementById("button3");
 button3.addEventListener("click", playAudio3);
 
 function playAudio3() {
-    const sound3 = new Audio("sounds/bass_short.wav");
+    const sound3 = new Audio("sounds/beat.mp3");
     sound3.play();
+    sound3.volume = volume;
+}
+
+const button4 = document.getElementById("button4");
+button4.addEventListener("click", playAudio4);
+
+function playAudio4() {
+    const sound4 = new Audio("sounds/sound4.mp3");
+    sound4.play();
+    sound4.volume = volume;
+}
+
+const button5 = document.getElementById("button5");
+button5.addEventListener("click", playAudio5);
+
+function playAudio5() {
+    const sound5 = new Audio("sounds/sound5.mp3");
+    sound5.play();
+    sound5.volume = volume;
 }
 
 const Metronom = document.getElementById("Metronom");
 Metronom.addEventListener("click", playMetronom);
-
 
 const metro = new Audio("sounds/Metro.wav");
 
 function playMetronom() {
     metro.loop = true;
     metro.play();
+    metro.volume = volume;
 }
 
 const stopp = document.getElementById("stopp");
