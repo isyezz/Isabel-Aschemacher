@@ -145,7 +145,7 @@ div{
 }
 
 #Metronom {
-    background-color: black;
+    background-color: #000000;
     border: none;
     color: rgb(255, 255, 255);
     width: 6em;
@@ -161,6 +161,8 @@ div{
 #Metronom:hover{
     background-color: grey;
 }
+
+
 
 #stopp{
     background-color: #000000;
@@ -184,6 +186,7 @@ div{
     background-color: #00ff08;
     border: none;
     color: rgb(0, 0, 0);
+    color: #00ff08;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -294,7 +297,7 @@ div{
 #button7{
     background-color: #007e04;
     border: none;
-    color: #ffffff;
+    color: #007e04;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -309,14 +312,9 @@ div{
     background-color: #004d03;
 }  
 #button8{
-    background-image: radial-gradient(
-        circle closest-side at center,
-        rgb(255, 0, 0),
-        rgb(92, 0, 0),
-        rgb(0, 0, 0));
-    
+   background-color: red;
     border: none;
-    color: #ffffff;
+    color: red;
     width: 9em;
     height: 9em;
     text-align: center;
@@ -325,11 +323,11 @@ div{
     font-size: 1.2em;
     margin: 0.24em 0.12em;
     cursor: pointer;
-    /*transition: background-color 0.15s;*/
+    transition: background-color 0.15s;
 }
-/*#button8:hover{
+#button8:hover{
     background-color: #8d0000;
-}*  ---> siehe Button 7*/
+}
 
 #button9 {
     background-color: #00ff08;
@@ -370,7 +368,7 @@ div{
 #button11 {
     background-color: #00ff08;
     border: none;
-    color: rgb(0, 0, 0);
+    color: #00ff08;
     width: 9em;
     height: 9em;
     text-align: center;
