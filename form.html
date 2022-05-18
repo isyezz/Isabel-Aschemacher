@@ -23,25 +23,33 @@
 
     <main>
 
-      
-      <div class="slidecontainer">
-        <input type="range" min="1" max="100" class="slider" id="fader">
-        <p>Lautst&#228;rke: <span id="demo"></span></p>
-      </div>
-      
-      
-    
-
+<br>
       <button id ="Metronom" type = "submit" name ="Metronom" value="1">Metronom</button>
       <button id ="stopp" type = "submit" name ="stopp" value="1">Stopp</button>
+
+      <br>
+
+      <label for="boards">Wähle ein Board:</label>
+      <select name="boards" id="select">
+        <option value="Soundboard 1">Board 1</option>
+        <option value="Soundboard 2">Board 2</option>
+        <option value="Soundboard 3">Board 3</option>
+        <option value="Soundboard 4">Board 4</option>
+      </select>
 
      <div>
 
         <button id = "button1" type="submit" name="Trommel" value="1">Drum</button>
         <button id = "button2" type="submit" name="Bass_1" value="1">Bass 1</button>
+        <br>
         <button id = "button3" type="submit" name="Bass_2" value="1">Bass 2</button>
         <button id = "button4" type="submit" name="Space" value="1">Sound4</button>
-        <button id = "button5" type="submit" name="sound5" value="1">Sound5</button>
+
+        <div class="slidecontainer">
+          <input type="range" min="0" max="100" class="slider" id="fader">
+          <p>Lautst&#228;rke: <span id="demo"></span></p>
+        </div>
+      <!-- <button id = "button5" type="submit" name="sound5" value="1">Sound5</button>
 
         <br>
 
@@ -58,6 +66,8 @@
         <button id = "button13" type="submit" name="Sound8" value="1">Sound13</button>
         <button id = "button14" type="submit" name="sound9" value="1">Sound14</button>
         <button id = "button15" type="submit" name="Sound10" value="1">Sound15</button>
+
+      -->
         
         </div>
 

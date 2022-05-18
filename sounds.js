@@ -1,3 +1,4 @@
+
 let volume = 0;
 const fader = document.getElementById("fader");
 
@@ -41,7 +42,7 @@ function playAudio4() {
     sound4.play();
     sound4.volume = volume;
 }
-
+/*
 const button5 = document.getElementById("button5");
 button5.addEventListener("click", playAudio5);
 
@@ -50,7 +51,7 @@ function playAudio5() {
     sound5.play();
     sound5.volume = volume;
 }
-
+*/
 const Metronom = document.getElementById("Metronom");
 Metronom.addEventListener("click", playMetronom);
 
@@ -70,9 +71,9 @@ function stoppmetro() {
     metro.pause();
 }
 
-const slider = document.getElementById("fader");
+let slider = document.getElementById("fader");
 
-const output = document.getElementById("demo");
+let output = document.getElementById("demo");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
