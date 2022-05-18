@@ -70,13 +70,13 @@ function stoppmetro() {
     metro.pause();
 }
 
-let slider = document.getElementById("fader");
+const slider = document.getElementById("fader");
 
-let output = document.getElementById("demo");
+const output = document.getElementById("demo");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
-output.innerHTML = this.value;
+    output.innerHTML = this.value;
 };
 
 
