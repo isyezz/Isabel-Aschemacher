@@ -87,7 +87,14 @@ async function sendJSONStringWithPOST(url, jsonString) {
     });
 }
 
+document.getElementById("select").addEventListener("click", select);
+
+function select() {
+    document.getElementById("select");
+    sendJSONStringWithPOST;
+}
+
 sendJSONStringWithPOST(
     "http://localhost:3000/setSounds",
-    JSON.stringify({ boardid: 3 })
+    JSON.stringify({ boardid: 1 })
 );
