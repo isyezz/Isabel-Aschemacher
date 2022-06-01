@@ -87,14 +87,46 @@ async function sendJSONStringWithPOST(url, jsonString) {
     });
 }
 
-document.getElementById("select").addEventListener("click", select);
+document.getElementById("board1").addEventListener("click", select);
 
 function select() {
-    document.getElementById("select");
-    sendJSONStringWithPOST;
+    const selectetBoard1 = document.getElementById("board1");
+
+
+    sendJSONStringWithPOST(
+        "http://localhost:3000/setSounds",
+        JSON.stringify({ boardid: selectetBoard1 })
+    );
+}
+document.getElementById("board2").addEventListener("click", select2);
+
+function select2() {
+    const selectetBoard2 = document.getElementById("board2");
+
+    sendJSONStringWithPOST(
+        "http://localhost:3000/setSounds",
+        JSON.stringify({ boardid: selectetBoard2 })
+    );
 }
 
-sendJSONStringWithPOST(
-    "http://localhost:3000/setSounds",
-    JSON.stringify({ boardid: 1 })
-);
+document.getElementById("board3").addEventListener("click", select3);
+
+function select3() {
+    document.getElementById("board3");
+
+    sendJSONStringWithPOST(
+        "http://localhost:3000/setSounds",
+        JSON.stringify({ boardid: 3})
+    );
+}
+
+document.getElementById("board4").addEventListener("click", select4);
+
+function select4() {
+    document.getElementById("board4");
+
+    sendJSONStringWithPOST(
+        "http://localhost:3000/setSounds",
+        JSON.stringify({ boardid: 4 })
+    );
+}
