@@ -88,6 +88,6 @@ async function sendJSONStringWithPOST(url, jsonString) {
 }
 
 sendJSONStringWithPOST(
-    "http://localhost:3000/",
-    JSON.stringify({ test: "Dies ist ein Test" })
+    "http://localhost:3000/setSounds",
+    JSON.stringify({ boardid: 3 })
 );
