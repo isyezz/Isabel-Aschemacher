@@ -90,22 +90,17 @@ async function sendJSONStringWithPOST(url, jsonString) {
 document.getElementById("board1").addEventListener("click", select);
 
 function select() {
-    const selectetBoard1 = document.getElementById("board1");
-
-
     sendJSONStringWithPOST(
         "http://localhost:3000/setSounds",
-        JSON.stringify({ boardid: selectetBoard1 })
+        JSON.stringify({ boardid: 1 })
     );
 }
 document.getElementById("board2").addEventListener("click", select2);
 
 function select2() {
-    const selectetBoard2 = document.getElementById("board2");
-
     sendJSONStringWithPOST(
         "http://localhost:3000/setSounds",
-        JSON.stringify({ boardid: selectetBoard2 })
+        JSON.stringify({ boardid: 2 })
     );
 }
 
