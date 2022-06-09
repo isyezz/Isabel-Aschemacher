@@ -71,9 +71,9 @@ function stoppmetro() {
     metro.pause();
 }
 
-let slider = document.getElementById("fader");
+const slider = document.getElementById("fader");
 
-let output = document.getElementById("demo");
+const output = document.getElementById("demo");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
@@ -83,19 +83,31 @@ slider.oninput = function() {
 async function sendJSONStringWithPOST(url, jsonString) {
     const response = await fetch(url, {
         method: "post",
-        body: jsonString,
+        body: jsonString
     });
 }
 
-document.getElementById("board1").addEventListener("click", select);
+// eslint-disable-next-line no-var
+var select = document.getElementById("select");
 
-function select() {
+select.addEventListener("change", function() {
+    if (select.value === "Soundboard 1") {
+        select1();
+    } else if (select.value === "Soundboard 2") {
+        select2();
+    } else if (select.value === "Soundboard 3") {
+        select3();
+    } else if (select.value === "Soundboard 4") {
+        select4();
+    }
+});
+
+function select1() {
     sendJSONStringWithPOST(
         "http://localhost:3000/setSounds",
         JSON.stringify({ boardid: 1 })
     );
 }
-document.getElementById("board2").addEventListener("click", select2);
 
 function select2() {
     sendJSONStringWithPOST(
@@ -104,18 +116,16 @@ function select2() {
     );
 }
 
-document.getElementById("board3").addEventListener("click", select3);
 
 function select3() {
     document.getElementById("board3");
 
     sendJSONStringWithPOST(
         "http://localhost:3000/setSounds",
-        JSON.stringify({ boardid: 3})
+        JSON.stringify({ boardid: 3 })
     );
 }
 
-document.getElementById("board4").addEventListener("click", select4);
 
 function select4() {
     document.getElementById("board4");
